@@ -1,6 +1,7 @@
 # Версии начиная с 0.9.x неудалось установить
 version=0.8.13
-gitdir=https://github.com/MeGaZip/3proxy/raw/master/
+gitdir=https://github.com/DionGanteng/3proxyInstaller/raw/master/
+
 
 apt update && apt -y upgrade
 apt install gcc make git nano -y
