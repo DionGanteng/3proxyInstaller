@@ -27,7 +27,7 @@ update-rc.d 3proxy defaults
 
 # Запуск 3proxy /etc/init.d/3proxy start
 service 3proxy start
-echo 3proxy запущен
+echo 3proxy diluncurkan
 
 # Открываем порты vesta
 v-add-firewall-rule ACCEPT 0.0.0.0/0 8088,9999 TCP 3Proxy
